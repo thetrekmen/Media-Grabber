@@ -1,0 +1,79 @@
+@options
+@packages
+-classpath
+'/home/pjones/.m2/repository/com/neovisionaries/nv-websocket-client/2.5/nv-websocket-client-2.5.jar:/home/pjones/.m2/repository/org/json/json/20170516/json-20170516.jar:/home/pjones/.m2/repository/commons-cli/commons-cli/1.3/commons-cli-1.3.jar'
+-encoding
+'UTF-8'
+-overview
+'/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/src/main/javadoc/overview.html'
+-protected
+-source
+'1.8'
+-sourcepath
+'/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/src/main/java:/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/src/main/javadoc'
+-author
+-bottom
+'Copyright &#169; 2022 Persistent Systems LLC. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'wrwebsocketclient 2.1.14 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'wrwebsocketclient 2.1.14 API'
+com.persistentsystems.examples.testsuspend
+com.persistentsystems.examples.clang
+com.persistentsystems.examples.cli
+com.persistentsystems.examples.testclient3
+com.persistentsystems.examples.firmware_test
+com.persistentsystems.examples.testclient2
+com.persistentsystems.examples.testclient4
+com.persistentsystems.examples.testclient5
+com.persistentsystems.examples.testclientiperf
+com.persistentsystems.socketclient.listeners
+com.persistentsystems.socketclient.messaging
+com.persistentsystems.socketclient.messaging.interfaces
+com.persistentsystems.socketclient.sockets
+com.persistentsystems.socketclient.sockets.interfaces
+com.persistentsystems.socketclient.containers
+com.persistentsystems.socketclient.commands
+com.persistentsystems.socketclient.ssl
+com.persistentsystems.socketclient.results
+com.persistentsystems.socketclient.net
+com.persistentsystems.socketclient.except
+com.persistentsystems.socketclient.auth
+/home/pjones/.m2/repository/com/neovisionaries/nv-websocket-client/2.5/nv-websocket-client-2.5.jar = 1672152673250
+/home/pjones/.m2/repository/org/json/json/20170516/json-20170516.jar = 1672152673222
+/home/pjones/.m2/repository/commons-cli/commons-cli/1.3/commons-cli-1.3.jar = 1672152673246
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/src/main/java = 1598537903000
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/src/main/javadoc/overview.html = 1597671560000
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/src/main/javadoc = 1597671560000
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/jquery-ui.overrides.css = 1672166496130
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/stylesheet.css = 1672166496118
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/member-search-index.js = 1672166496090
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/allpackages-index.html = 1672166496102
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/serialized-form.html = 1672166495890
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/help-doc.html = 1672166496118
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/allclasses.html = 1672166496110
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/index-all.html = 1672166496094
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/script.js = 1672166496118
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/deprecated-list.html = 1672166496106
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/element-list = 1672166495810
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/type-search-index.zip = 1672166496090
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/constant-values.html = 1672166495878
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/index.html = 1672166496114
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/package-search-index.js = 1672166496086
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/package-search-index.zip = 1672166496090
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/search.js = 1672166496118
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/allclasses-index.html = 1672166496102
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/type-search-index.js = 1672166496090
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/overview-summary.html = 1672166496118
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/overview-tree.html = 1672166496050
+/home/pjones/Documents/waverelay_api_oct2022/03EN143 wrm-json-ws-client-java Rev.F/target/site/apidocs/member-search-index.zip = 1672166496090

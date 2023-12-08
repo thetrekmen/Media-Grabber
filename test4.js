@@ -10,7 +10,7 @@ const gstreamerLib = path.join(gstreamerDir, 'lib', 'gstreamer-1.0');
 process.env.PATH = `${gstreamerBin};${process.env.PATH}`;
 process.env.GST_PLUGIN_PATH = gstreamerLib;
 
-const LOCAL_IP_ADDRESS = '172.26.21.83';
+const LOCAL_IP_ADDRESS = '172.26.44.66';
 const MULTICAST_ADDRESS = '239.192.44.13';
 const PORT = 60013;
 const client = dgram.createSocket({ type: 'udp4', reuseAddr: true });
@@ -52,8 +52,8 @@ function startGStreamerProcess() {
     const args = [
         '-e',
         'udpsrc',
-        'multicast-group=239.192.44.13',
-        'port=60013',
+        `multicast-group=${MULTICAST_ADDRESS}`,
+        `port=${PORT}`,
         '!',
         'application/x-rtp,media=audio,clock-rate=48000,encoding-name=OPUS,payload=112',
         '!',

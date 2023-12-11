@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>GStreamer Control</title>
+</head>
+
+<body>
+    <h1>Media Grabber</h1>
+    <button id="startBtn" type="button">Start Process</button>
+    <button id="stopBtn" type="button">Stop Process</button>
+
+    <script>
+        document.getElementById('startBtn').addEventListener('click', () => {
+            window.api.send('start-process');
+        });
+    
+        document.getElementById('stopBtn').addEventListener('click', () => {
+            window.api.send('kill-process');
+        });
+    </script>
+</body>
+
+</html>
